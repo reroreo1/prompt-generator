@@ -1,0 +1,35 @@
+/* style.css */
+html{
+    background: url("./smartscape.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Poppins';
+  font-size: 20px;
+}
+a{
+    text-decoration: none;
+
+}
+a:visited{
+    color : white;
+    text-decoration: none;
+
+}
+
+.home{
+    font-weight: bold;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.link-container{
+    margin-top : 20px;
+    color: white;
+    font-weight: 100;
+    display: flex;
+    gap : 40px;
+}
+

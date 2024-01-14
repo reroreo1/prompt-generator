@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GreenScape Guide: Dream Garden Visualizer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+</head>
+<body>
+    <div id="question-form">
+        <h2>Hello! Welcome to GreenScape Guide. I'm here to assist you in visualizing your dream garden.</h2>
+        <p>Q1: Describe your garden's size and shape (e.g., large yard, small, rectangular, circular): <input type="text" id="question1"></p>
+        <p>Q2: What types of plants do you prefer (e.g., flowers, shrubs, trees, vegetables/herbs)? Any specific plants in mind? <input type="text" id="question2"></p>
+        <p>Q3: What color scheme do you envision (e.g., warm desert tones, varied colors)? Consider flowers, decor, mulch, and stones: <input type="text" id="question3"></p>
+        <p>Q4: Choose a garden theme or style (e.g., desert oasis, modern minimalist, traditional cottage): <input type="text" id="question4"></p>
+        <p>Q5: How do you plan to use your garden (e.g., relaxation, entertaining, play area)? <input type="text" id="question5"></p>
+        <p>Q6: Any special features you'd like (e.g., water features, lighting, sculptures, fire pit, gazebo)? <input type="text" id="question6"></p>
+        <button onclick="generatePrompt()">Generate Prompt</button>
+        <p id="output"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
