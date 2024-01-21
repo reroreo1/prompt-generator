@@ -25,4 +25,3 @@ function generatePrompt() {
     var selectedTemplate = templates[Math.floor(Math.random() * templates.length)];
     document.getElementById('output').innerText = 'Generated Prompt: ' + selectedTemplate;
 }
-s
